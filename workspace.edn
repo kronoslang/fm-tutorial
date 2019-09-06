@@ -10,7 +10,7 @@
  :version "0.1"}
  :origin 
 {:branch "default"
- :parents ["630d4e0aba098a111def1d79ddee77e59fb8a2bb"]
+ :parents ["36b5a0bb13c43aea83a9b054f43b6c108f7a07b0"]
  :service "bitbucket"
  :slug "kronoslang/fm-tutorial"}
  :tabs ("tabs/draft.initial.edn" "tabs/Note-_Freq.c8h2zc4uvjyx717.edn" "tabs/Operator.latl0t3w6viph7d.edn" "tabs/Phasor.g7w4871mr3eq4hw.edn")}

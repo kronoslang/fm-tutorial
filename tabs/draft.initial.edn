@@ -54,7 +54,7 @@
  :inputs []
  :label "4"
  :outputs [""]
- :parsed [:number-widget :float "5rqbmka1i0l4oyj" "27" ""]
+ :parsed [:number-widget :float "5rqbmka1i0l4oyj" "7" ""]
  :pos [35 123]}
  "6fimc0cfky629rg" 
 {:inputs ["note"]
