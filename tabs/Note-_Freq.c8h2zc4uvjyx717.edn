@@ -1,0 +1,81 @@
+{:documentation "Converts a MIDI note number into a frequency"
+ :draft-argument "60"
+ :identifier "Note->Freq"
+ :identity "c8h2zc4uvjyx717"
+ :patch
+{:cables
+{["0xlw1e6hbq6rt5f" 0] [:fixed "epr82u4lgyrrncy" 0]
+ ["446xqwblva7dtyx" 0] [:fixed "hxhb6uj3h0061p7" 0]
+ ["8fifm66xs4zzg2e" 0] [:fixed "0xlw1e6hbq6rt5f" 0]
+ ["epr82u4lgyrrncy" 0] [:fixed "446xqwblva7dtyx" 0]}
+ :nodes
+{"0xlw1e6hbq6rt5f" 
+{:color 2
+ :inputs ["b"]
+ :label "Math:Pow(2 $b)"
+ :outputs [""]
+ :parsed [:fn "Math:Pow" [:tuple [:float "2"] [:free-var "b"]]]
+ :pos [-23 -154]
+ }
+ "446xqwblva7dtyx" 
+{:inputs ["a"]
+ :label "- 69"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "-" [:float "69"]]
+ :pos [-315 -255]
+ }
+ "8fifm66xs4zzg2e" 
+{:color 3
+ :inputs ["a"]
+ :label "* 440"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "*" [:float "440"]]
+ :pos [270 58]
+ }
+ "90n38g15m2ign70" 
+{:color 3
+ :inputs []
+ :label "; reference tuning is 440"
+ :outputs []
+ :parsed [:comment "reference tuning is 440"]
+ :pos [307 -36]
+ }
+ "9q250fe1cnrm2b8" 
+{:inputs []
+ :label "; # Compute Frequency from Note Number #"
+ :outputs []
+ :parsed [:comment "# Compute Frequency from Note Number #"]
+ :pos [158 -407]
+ }
+ "epr82u4lgyrrncy" 
+{:color 2
+ :inputs ["a"]
+ :label "/ 12"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "/" [:float "12"]]
+ :pos [-195 -154]
+ }
+ "g21jzl8tmdkyfnn" 
+{:color 2
+ :inputs []
+ :label "; frequency doubles per octave (12 semitones). Build logarithmic scale with the power function"
+ :outputs []
+ :parsed [:comment "frequency doubles per octave (12 semitones). Build logarithmic scale with the power function"]
+ :pos [-107 -74]
+ }
+ "hxhb6uj3h0061p7" 
+{:inputs []
+ :label "note = arg"
+ :outputs ["note"]
+ :parsed "arg"
+ :pos [-427 -207]
+ }
+ "inbemielrxh48l" 
+{:inputs []
+ :label "; A4 or note 69 is our reference"
+ :outputs []
+ :parsed [:comment "A4 or note 69 is our reference"]
+ :pos [-291 -365]
+ }}
+ :scale 1
+ :scroll [0 0]}}

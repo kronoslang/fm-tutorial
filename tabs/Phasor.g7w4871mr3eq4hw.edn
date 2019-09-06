@@ -1,0 +1,118 @@
+{:documentation "Produces a periodic ramp from 0 to 1 at a specified frequency. Updates at audio rate."
+ :draft-argument "0.5"
+ :identifier "Phasor"
+ :identity "g7w4871mr3eq4hw"
+ :patch
+{:cables
+{["0nqxblx2scmrdwe" 0] [:fixed "hr7bnagqwah19u5" 0]
+ ["0nqxblx2scmrdwe" 1] [:fixed "5o89l82fu2zhfb9" 0]
+ ["1d2r1i43f54x0fg" 0] [:fixed "bsv11w3gcu0nkb7" 0]
+ ["bsv11w3gcu0nkb7" 0] [:fixed "fq89jfwe1sp3kk" 0]
+ ["fq89jfwe1sp3kk" 0] [:fixed "nm3v66zm77fouki" 0]
+ ["fq89jfwe1sp3kk" 1] [:fixed "1d2r1i43f54x0fg" 0]
+ ["nm3v66zm77fouki" 0] [:fixed "0nqxblx2scmrdwe" 0]
+ ["osm5nv5tuj58wsq" 0] [:fixed "1d2r1i43f54x0fg" 0]}
+ :nodes
+{"0nqxblx2scmrdwe" 
+{:color 3
+ :inputs ["a" "b" "more..."]
+ :label "/"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "/" [:free-var "b"] [:free-var "more..."]]
+ :pos [-171 13]
+ }
+ "1d2r1i43f54x0fg" 
+{:color 4
+ :inputs ["x"]
+ :label "Fraction($x)"
+ :outputs [""]
+ :parsed [:fn "Fraction" [:tuple [:free-var "x"]]]
+ :pos [283 12]
+ }
+ "2ex6kwoaa5u6dlx" 
+{:color 3
+ :inputs []
+ :label "; divide frequency by sample rate to obtain per-sample increment"
+ :outputs []
+ :parsed [:comment "divide frequency by sample rate to obtain per-sample increment"]
+ :pos [-253 -292]
+ }
+ "5hdfrmdp277fhsb" 
+{:inputs []
+ :label ";`Signal` causes downstream data to flow at the audio rate"
+ :outputs []
+ :parsed [:comment "`Signal` causes downstream data to flow at the audio rate"]
+ :pos [114 -175]
+ }
+ "5o89l82fu2zhfb9" 
+{:color 3
+ :inputs []
+ :label "Gen:Rate()"
+ :outputs [""]
+ :parsed [:fn "Gen:Rate" [:tuple]]
+ :pos [-264 -181]
+ }
+ "7fpp5iaiydbbc9c" 
+{:color 4
+ :inputs []
+ :label "; generate phasor with a cyclic signal path\n\n\ntake `Fraction` of the signal to wrap phase back to zero."
+ :outputs []
+ :parsed [:comment "generate phasor with a cyclic signal path\n\n\ntake `Fraction` of the signal to wrap phase back to zero."]
+ :pos [253 82]
+ }
+ "bq7d7v84j6f1qi" 
+{:inputs []
+ :label "; # Phasor #\n\n\nPhasor is the elementary primitive for sound synthesis."
+ :outputs []
+ :parsed [:comment "# Phasor #\n\n\nPhasor is the elementary primitive for sound synthesis."]
+ :pos [-1 -484]
+ }
+ "bsv11w3gcu0nkb7" 
+{:color 4
+ :inputs ["sig~"]
+ :label "z-1($sig~)"
+ :outputs [""]
+ :parsed [:fn "z-1" [:tuple [:free-var "sig~"]]]
+ :pos [169 12]
+ }
+ "fq89jfwe1sp3kk" 
+{:color 4
+ :inputs ["a" "b" "more..."]
+ :label "+"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "+" [:free-var "b"] [:free-var "more..."]]
+ :pos [56 12]
+ }
+ "hr7bnagqwah19u5" 
+{:color 2
+ :inputs []
+ :label "freq = arg"
+ :outputs ["freq"]
+ :parsed "arg"
+ :pos [-285 13]
+ }
+ "nm3v66zm77fouki" 
+{:inputs ["sig"]
+ :label "Gen:Signal($sig)"
+ :outputs [""]
+ :parsed [:fn "Gen:Signal" [:tuple [:free-var "sig"]]]
+ :pos [-58 13]
+ }
+ "osm5nv5tuj58wsq" 
+{:color 4
+ :inputs ["sig"]
+ :label ""
+ :outputs [""]
+ :parsed [:playback [:free-var "sig"]]
+ :pos [161 -275]
+ }
+ "z3kmyfw2hq6haye" 
+{:color 2
+ :inputs []
+ :label "; arg is the module input node.\n\n\nin this case, we have a single input `freq`"
+ :outputs []
+ :parsed [:comment "arg is the module input node.\n\n\nin this case, we have a single input `freq`"]
+ :pos [-323 86]
+ }}
+ :scale 1
+ :scroll [0 0]}}

@@ -1,0 +1,15 @@
+{:current-tab 3
+ :file "fm.veneer"
+ :manifest 
+{:dependencies 
+{}
+ :description "This patch demonstrates FM synthesis built from scratch!"
+ :license "https://www.eclipse.org/legal/epl-v10.html"
+ :name "fm-tutorial"
+ :url "https://kronoslang.io"
+ :version "0.1"}
+ :origin 
+{:parents ["0"]
+ :service "bitbucket"
+ :slug "kronoslang/fm-tutorial"}
+ :tabs ("tabs/draft.initial.edn" "tabs/Note-_Freq.c8h2zc4uvjyx717.edn" "tabs/Operator.latl0t3w6viph7d.edn" "tabs/Phasor.g7w4871mr3eq4hw.edn")}
