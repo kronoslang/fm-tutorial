@@ -1,5 +1,5 @@
-{:current-tab 3
- :file "fm.veneer"
+{:current-tab 0
+ 
  :manifest 
 {:dependencies 
 {}
@@ -9,7 +9,8 @@
  :url "https://kronoslang.io"
  :version "0.1"}
  :origin 
-{:parents ["0"]
+{:branch "default"
+ :parents ["630d4e0aba098a111def1d79ddee77e59fb8a2bb"]
  :service "bitbucket"
  :slug "kronoslang/fm-tutorial"}
  :tabs ("tabs/draft.initial.edn" "tabs/Note-_Freq.c8h2zc4uvjyx717.edn" "tabs/Operator.latl0t3w6viph7d.edn" "tabs/Phasor.g7w4871mr3eq4hw.edn")}

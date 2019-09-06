@@ -23,77 +23,67 @@
  :label "Phasor($freq)"
  :outputs [""]
  :parsed [:fn "Phasor" [:tuple [:free-var "freq"]]]
- :pos [-335 -240]
- }
+ :pos [-335 -240]}
  "13bnmywm558vfhj" 
 {:color 2
  :inputs []
  :label "; produce a triangular wave"
  :outputs []
  :parsed [:comment "produce a triangular wave"]
- :pos [-138 -35]
- }
+ :pos [-138 -35]}
  "5ydm4j414psq4ln" 
 {:color 3
  :inputs ["sig"]
  :label "o))"
  :outputs ["thru"]
  :parsed [:playback [:free-var "sig"]]
- :pos [420 125]
- }
+ :pos [420 125]}
  "7ap1e375dp993pg" 
 {:color 2
  :inputs ["a"]
  :label "* 4"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:float "4"]]
- :pos [-139 -110]
- }
+ :pos [-139 -110]}
  "7bu2wolwmzhjiz" 
 {:inputs []
  :label "; # \"Sinusoid\" Operator #\n\n\nThis operator is built from a *phasor* and *waveshaping*. You can inspect the phasor implementation on the next tab."
  :outputs []
  :parsed [:comment "# \"Sinusoid\" Operator #\n\n\nThis operator is built from a *phasor* and *waveshaping*. You can inspect the phasor implementation on the next tab."]
- :pos [12 -558]
- }
+ :pos [12 -558]}
  "e1iw3dtmpcvvfbz" 
 {:color 3
  :inputs ["b"]
  :label "1 -"
  :outputs [""]
  :parsed [:infix [:float "1"] "-" [:free-var "b"]]
- :pos [188 -6]
- }
+ :pos [188 -6]}
  "jcb87kow1keojlf" 
 {:inputs []
  :label "; make phasor output bipolar"
  :outputs []
  :parsed [:comment "make phasor output bipolar"]
- :pos [-338 -338]
- }
+ :pos [-338 -338]}
  "kbrywwg8hwnxca" 
 {:inputs ["sig"]
  :label "o))"
  :outputs ["thru"]
  :parsed [:playback [:free-var "sig"]]
- :pos [-32 -289]
- }
+ :pos [-32 -289]}
  "m5704vvpggh4mp2" 
 {:color 2
  :inputs ["sig"]
  :label "o))"
  :outputs ["thru"]
  :parsed [:playback [:free-var "sig"]]
- :pos [139 -119]
- }
+ :pos [139 -119]}
  "pj9mi2k9ql6nb" 
 {:color 3
  :inputs []
  :label "; make parabolic shape"
  :outputs []
  :parsed [:comment "make parabolic shape"]
- :pos [211 71]
- }
+ :pos [211 71]}
  "tdjse3shv91j5so" 
 {:color 3
  :ephemeral-inputs #{}
@@ -101,45 +91,39 @@
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more..."]]
- :pos [85 -5]
- }
+ :pos [85 -5]}
  "uyrzvest3tpd80c" 
 {:inputs ["a"]
  :label "- 0.5"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "-" [:float "0.5"]]
- :pos [-207 -240]
- }
+ :pos [-207 -240]}
  "vm6wh8ngctrmpl5" 
 {:color 2
  :inputs ["b"]
  :label "1 -"
  :outputs [""]
  :parsed [:infix [:float "1"] "-" [:free-var "b"]]
- :pos [-10 -110]
- }
+ :pos [-10 -110]}
  "yaipdtnu67tirpx" 
 {:inputs []
  :label "freq = arg"
  :outputs ["freq"]
  :parsed "arg"
- :pos [-464 -240]
- }
+ :pos [-464 -240]}
  "zuc25c6gxc80iv6" 
 {:color 3
  :inputs ["value" "sign"]
  :label "Math:Copy-Sign($value $sign)"
  :outputs [""]
  :parsed [:fn "Math:Copy-Sign" [:tuple [:free-var "value"] [:free-var "sign"]]]
- :pos [337 -7]
- }
+ :pos [337 -7]}
  "zzoaid5jfg0v1qi" 
 {:color 2
  :inputs ["a"]
  :label "Abs($a)"
  :outputs [""]
  :parsed [:fn "Abs" [:tuple [:free-var "a"]]]
- :pos [-267 -110]
- }}
+ :pos [-267 -110]}}
  :scale 1
  :scroll [0 0]}}

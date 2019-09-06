@@ -1,8 +1,8 @@
 {
-  "description": "This patch demonstrates FM synthesis built from scratch!",
   "dependencies": {},
-  "version": "0.1",
+  "description": "This patch demonstrates FM synthesis built from scratch!",
   "license": "https://www.eclipse.org/legal/epl-v10.html",
   "name": "fm-tutorial",
-  "url": "https://kronoslang.io"
+  "url": "https://kronoslang.io",
+  "version": "0.1"
 }
