@@ -10,7 +10,7 @@
  :name "fm-tutorial"
  :url "https://kronoslang.io"
  :version "0.1"}
- 
+ :name "my-project"
  :origin 
 {:branch "default"
  :parents ["36b5a0bb13c43aea83a9b054f43b6c108f7a07b0"]
