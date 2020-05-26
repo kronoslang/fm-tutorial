@@ -21,79 +21,91 @@
  :label "* 2"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:number-widget :float "-f529bh" "1" ""]]
- :pos [-308 92]}
+ :pos [-308 92]
+ }
  "1fuio781s79l6uh" 
 {:color 3
  :inputs ["sig"]
  :label "o))"
  :outputs ["thru"]
  :parsed [:playback [:free-var "sig"]]
- :pos [233 405]}
+ :pos [233 405]
+ }
  "2twrpm3bikotzq8" 
 {:color 2
  :inputs ["freq"]
  :label "Operator($freq)"
  :outputs [""]
  :parsed [:fn "Operator" [:tuple [:free-var "freq"]]]
- :pos [-153 174]}
+ :pos [-153 174]
+ }
  "53laalh1lec9swm" 
 {:inputs []
  :label ";carrier"
  :outputs []
  :parsed [:comment "carrier"]
- :pos [354 177]}
+ :pos [354 177]
+ }
  "5c6aj55ck37tb9q" 
 {:color 2
  :inputs []
  :label "; modulator"
  :outputs []
  :parsed [:comment "modulator"]
- :pos [-152 238]}
+ :pos [-152 238]
+ }
  "6c2co5zdtp8ecw1" 
 {:color 3
  :inputs []
  :label "4"
  :outputs [""]
  :parsed [:number-widget :float "r0dp9a" "7" ""]
- :pos [35 123]}
+ :pos [35 123]
+ }
  "6fimc0cfky629rg" 
 {:inputs ["note"]
  :label "Note->Freq($note)"
  :outputs [""]
  :parsed [:fn "Note->Freq" [:tuple [:free-var "note"]]]
- :pos [-183 -96]}
+ :pos [-183 -96]
+ }
  "7bh2k4oiwoc518v" 
 {:color 4
  :inputs []
  :label "; modulate FM depth with an LFO"
  :outputs []
  :parsed [:comment "modulate FM depth with an LFO"]
- :pos [210 -202]}
+ :pos [210 -202]
+ }
  "7btbl09hxpl0e2o" 
 {:inputs []
  :label "; compute frequency from note number"
  :outputs []
  :parsed [:comment "compute frequency from note number"]
- :pos [-342 -205]}
+ :pos [-342 -205]
+ }
  "7eem4ajysj3kkpw" 
 {:color 3
  :inputs []
  :label "60"
  :outputs [""]
  :parsed [:number-widget :float "-stcdnt" "25" ""]
- :pos [-451 -97]}
+ :pos [-451 -97]
+ }
  "7vhqogro5o6qjhz" 
 {:inputs ["freq"]
  :label "Operator($freq)"
  :outputs [""]
  :parsed [:fn "Operator" [:tuple [:free-var "freq"]]]
- :pos [355 264]}
+ :pos [355 264]
+ }
  "c8dv6mak51s16kw" 
 {:inputs []
  :label "; # FM From First Principles #\n\n\nIn this patch, we build a FM synth from scratch.\n\n\nYou can start playback with the play button at the bottom of the patch. While playing, you can tweak any number in the patch by dragging; please start with the *green* nodes!"
  :outputs []
  :parsed [:comment "# FM From First Principles #\n\n\nIn this patch, we build a FM synth from scratch.\n\n\nYou can start playback with the play button at the bottom of the patch. While playing, you can tweak any number in the patch by dragging; please start with the *green* nodes!"]
- :pos [1 -565]}
+ :pos [1 -565]
+ }
  "cj9cxn2k1zgx1ta" 
 {:color 2
  :ephemeral-inputs #{"more1" "more2"}
@@ -101,48 +113,55 @@
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more1"] [:free-var "more2"] [:free-var "more..."]]
- :pos [171 228]}
+ :pos [171 228]
+ }
  "co1fx276ugef98s" 
 {:color 4
  :inputs ["freq"]
  :label "Operator($freq)"
  :outputs [""]
  :parsed [:fn "Operator" [:tuple [:free-var "freq"]]]
- :pos [100 -100]}
+ :pos [100 -100]
+ }
  "d1wqtepeaax7act" 
 {:color 3
  :inputs ["a"]
  :label "+ 0"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "+" [:number-widget :float "-kq7isg" "4" ""]]
- :pos [-328 -97]}
+ :pos [-328 -97]
+ }
  "dvh3huispe0ca2y" 
 {:color 3
  :inputs []
  :label "; FM multipliers"
  :outputs []
  :parsed [:comment "FM multipliers"]
- :pos [-145 42]}
+ :pos [-145 42]
+ }
  "fwrud2mqmdjbdsh" 
 {:color 4
  :inputs []
  :label "0.25"
  :outputs [""]
  :parsed [:float "0.25"]
- :pos [-63 -204]}
+ :pos [-63 -204]
+ }
  "hl173meauxd58sh" 
 {:color 3
  :inputs ["a"]
  :label "* 1"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:number-widget :float "-cn390a" "1" ""]]
- :pos [-21 -25]}
+ :pos [-21 -25]
+ }
  "qmpi9hmh6blkl1i" 
 {:color 2
  :inputs ["a"]
  :label "+ 1"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "+" [:float "1"]]
- :pos [96 21]}}
+ :pos [96 21]
+ }}
  :scale 1
  :scroll [0 0]}}
