@@ -20,7 +20,7 @@
  :inputs ["a"]
  :label "* 2"
  :outputs [""]
- :parsed [:infix [:free-var "a"] "*" [:number-widget :float "5t497e7rsypzo92" "1" ""]]
+ :parsed [:infix [:free-var "a"] "*" [:number-widget :float "-f529bh" "1" ""]]
  :pos [-308 92]}
  "1fuio781s79l6uh" 
 {:color 3
@@ -54,7 +54,7 @@
  :inputs []
  :label "4"
  :outputs [""]
- :parsed [:number-widget :float "5rqbmka1i0l4oyj" "7" ""]
+ :parsed [:number-widget :float "r0dp9a" "7" ""]
  :pos [35 123]}
  "6fimc0cfky629rg" 
 {:inputs ["note"]
@@ -80,7 +80,7 @@
  :inputs []
  :label "60"
  :outputs [""]
- :parsed [:number-widget :float "zw4prfupnb4wg0z" "25" ""]
+ :parsed [:number-widget :float "-stcdnt" "25" ""]
  :pos [-451 -97]}
  "7vhqogro5o6qjhz" 
 {:inputs ["freq"]
@@ -114,7 +114,7 @@
  :inputs ["a"]
  :label "+ 0"
  :outputs [""]
- :parsed [:infix [:free-var "a"] "+" [:number-widget :float "hqfc1ih2snp1s6d" "4" ""]]
+ :parsed [:infix [:free-var "a"] "+" [:number-widget :float "-kq7isg" "4" ""]]
  :pos [-328 -97]}
  "dvh3huispe0ca2y" 
 {:color 3
@@ -135,7 +135,7 @@
  :inputs ["a"]
  :label "* 1"
  :outputs [""]
- :parsed [:infix [:free-var "a"] "*" [:number-widget :float "esjbc8rw73k45th" "1" ""]]
+ :parsed [:infix [:free-var "a"] "*" [:number-widget :float "-cn390a" "1" ""]]
  :pos [-21 -25]}
  "qmpi9hmh6blkl1i" 
 {:color 2

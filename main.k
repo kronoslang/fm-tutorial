@@ -3,7 +3,7 @@
 
 
 
-Package fm-tutorial {
+Package Fm-Tutorial {
 
 Brief() { 
 ;; This patch demonstrates FM synthesis built from scratch!
